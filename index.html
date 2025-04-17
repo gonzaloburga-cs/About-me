@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- !DOCTYPE html tells browser this is using HTML5 -->
+<!-- EXAMPLE CODE HEADER/DISCLAIMER
+ 
+Project:  Project1-About Me
+Name: Gonzalo Burga
+Submitted: 1/17/24
+ 
+I declare that the following source code was written by me, or provided
+by the instructor for this project. I understand that copying source
+code from any other source, providing source code to another student, 
+or leaving my code on a public web site constitutes cheating.
+I acknowledge that  If I am found in violation of this policy this may result
+in a zero grade, a permanent record on file and possibly immediate failure of the class. -->
+
+<html lang = "en">
+       
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Gonzalo Burga</title>
+    <h1>Gonzalo Burga</h1>
+    <hr size ="5">
+    <img id="portrait" src = "images/CroppedInfinity.JPG" alt = "Me" width="500" height="650">
+    
+</head>
+<body>
+    <div id="modal" class = "modal">
+        <div class ="modal-content">
+            <span class = "close" id = "close">&times;</span>
+            <img id = "modal-img" src = "images/CroppedInfinity.JPG" alt = "Larger JPG" class = "modal-img">
+        </div>
+    </div>
+
+    <div id ="overlay" class = "overlay"></div>
+    <script src = "script.js"></script>
+        <h2>Personal Info:</h2>
+        <p>
+            <ul>
+                <li><strong>Major: </strong>Computer Science</li>
+                <li><strong>High School: </strong>Bingham High School, 2023</li>
+                <li><strong>Current Year at UVU: </strong>Sophmore</li>
+                <li><strong>Favorite Ice Cream: </strong>Passion fruit</li>
+            </ul>
+        </p>
+        
+        <h2>My Five Favorite Books:</h2>
+            <p>
+                <ol>
+                    <li><em>Rich Dad Poor Dad</em>, <a href = "https://en.wikipedia.org/wiki/Robert_Kiyosaki">
+                        Robert T. Kiyosaki</a></li>
+                    <li><em>The Millionare Next Door</em>, <a href = "https://en.wikipedia.org/wiki/Thomas_J._Stanley">Thomas J. Stanley</a> 
+                        and<a href = "https://www.albany.edu/~danko/profile/">William D. Danko</a></li>
+                    <li><em>Janitors Secrets of New Forest Academy Book 2</em>, <a href = 
+                        "https://en.wikipedia.org/wiki/Tyler_Whitesides">Tyler Whitesides</a></li>
+                    <li><em>The Heros of Olympus The Son of Neptune</em>, <a href = "https://en.wikipedia.org/wiki/Rick_Riordan">
+                        Rick Riordan</a></li>
+                    <li><em>The Heros of Olympus The Mark of Athena</em>, <a href = "https://en.wikipedia.org/wiki/Rick_Riordan">
+                        Rick Riordan</a></li>
+                </ol>
+            </p>
+
+        <h2>A Haiku That Is Due</h2>
+        <p class = "haiku">
+            <br>A poem about what I must do:<br>
+
+            <br>
+
+            <em>I type and I type</em><br>
+
+            <br>
+
+            <em>Is that a rumble I hear</em><br>
+
+            <br>
+
+            <em>It must be time for food</em>
+        </p>
+        <h2>My Personal Intrests:</h2>
+        <p>
+            I like to play sports. I've been playing sports since I was a little kid, I started with soccer then swimming,
+            basketabll, karate, and back to soccer. Skiing and snowboarding too during the winter time. Playing sports has 
+            always been a big part of my life but I'm slowly starting to see less and less free time for sports.
+        </p>
+        <p>
+            I also like to play video games in my free time. I used to not play that much because I wasn't very good so I would
+            only play with when I was with all my friends, but then COVID gave me a lot of time to improve and I found the same 
+            level of competitveness that I had with sports. Now most recently I play Halo Infinte for the UVU eSports team.
+        </p>
+        <p>
+            Another one of my hobbies is cars. I've grown up around cars my entire life since my dad is a mechanic. 
+            Ever since I was around 8 years old he started taking my brother and I to his work shop and he would have us 
+            help him whether it was us passing him a tool or actually letting us take off the tires or change the oil. 
+        </p>
+
+        <h2>Class Schedule</h2>
+            <p>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th class = "mon-header">Monday</th>
+                        <th class = "tues-header">Tuesday</th>
+                        <th class = "wed-header">Wednesday</th>
+                        <th class = "thur-header">Thursday</th>
+                        <th class = "fri-header">Friday</th>
+                        <th class = "sat-header">Saturday</th>
+                    </tr>
+
+                    <tr>
+                        <th>9:00</th>                   
+                        <td class = "stats" colspan="4", rowspan = "3">STATS 2050</td>
+                        <td class = "work" colspan = "2", rowspan = "12">Work</td>
+                    </tr>
+
+                    <tr>
+                        <th>9:30</th>                        
+                    </tr>
+
+                    <tr>
+                        <th>10:00</th>                        
+                    </tr>
+
+                    <tr>
+                        <th>10:30</th>                        
+                        <td class = "hw" colspan = "4" rowspan = "5">Homework</td>
+                    </tr>
+
+                    <tr>
+                        <th>11:00</th>                       
+                    </tr>
+
+                    <tr>
+                        <th>11:30</th>                       
+                    </tr>
+
+                    <tr>
+                        <th>12:00</th>                        
+                    </tr>
+
+                    <tr>
+                        <th>12:30</th>
+                    </tr>
+
+                    <tr>
+                        <th>1:00</th>                      
+                        <td class = "c2810" rowspan = "4">CS 2810</td>
+                        <td class = "c2420" rowspan = "4">CS 2420</td>
+                        <td class = "c2810" rowspan = "4">CS 2810</td>
+                        <td class = "c2420" rowspan = "4">CS 2420</td>
+                    </tr>
+
+                    <tr>
+                        <th>1:30</th>
+                    </tr>
+
+                    <tr>
+                        <th>2:00</th>
+                    </tr>
+
+                    <tr>
+                        <th>2:30</th>
+                    </tr>
+                </table>
+            </p>
+</body>
+</html>
+
+
+
+<!---
+--SELF GRADE--
+HEADER                  A 
+PERSONAL INFO           A 
+FAVE BOOKS              A 
+HAIKU                   A 
+ESSAY                   A 
+SCHEDULE                A 
+
+--EXTRA ITEMS COMPLETED--Minimum of 5
+REPEATING BKG IMG (2pts)            NO
+CHANGE FONT (2pts)                  YES
+RT ALIGN PHOTO (2pts)               NO
+
+INDENT/CENTER HAIKU (2pts)          NO
+
+TABLE-TEXT ALIGN (2pts)             YES
+
+TABLE-COLOR CODE (2pts)             YES
+
+TABLE-EQUAL COL WIDTH (2pts)        YES
+-->
+
+
+
+<!---
+--SELF GRADE--
+BODY        A 
+NAME        A 
+PORTRAIT    A 
+HEADINGS    A 
+SCHEDULE    A 
+
+--EXTRA CREDIT COMPLETED--
+FLOATING DIV (5pts)    NO
+STRIPED TABLE (5pts)   YES
+CSS3 Web Fonts (5pts)  YES
+MODAL PORTRAIT (10pts) YES
+ARTISTIC MERIT (10pts) NO 
+-->
